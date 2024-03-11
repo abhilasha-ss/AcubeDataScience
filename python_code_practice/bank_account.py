@@ -188,8 +188,8 @@ SESSION = True
 while SESSION:
     action = int(input(
         "\n\nEnter your choice\n1: Create new account\n2: Withdraw\n"
-        "3: Deposit\n
-        4: Check Balance\n5: Exit\n\n"))
+        "3: Deposit\n"
+        "4: Check Balance\n5: Exit\n\n"))
     match action:
         case 1:
             create_new_account()
